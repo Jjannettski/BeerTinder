@@ -1,0 +1,164 @@
+/*NAVBAR CSS*/
+
+#beer-logo{
+	height: 40px;
+	width:40px;
+	margin-top: 1px;
+}
+
+#name-logo{
+	display: flex;
+	flex-direction: row;
+}
+
+.bg-faded{
+	background-color: #191919;
+	background-image: url("https://raw.githubusercontent.com/diegocsandrim/sharp-test/master/output1.png");
+}
+
+.navbar, .navbar-toggleable-md, .navbar-light, .bg-faded{
+	color:#3333ff;
+}
+.btn-outline-success{
+	color: #ff9900;
+	border-color:#ff9900;
+}
+.btn-outline-success:hover{
+	color: black;
+	background-color: #ff9900;
+}
+#nav-color{
+	color:#ff9900;
+}
+
+.navbar-light .navbar-toggler-icon{
+	color:#ff9900;
+}
+
+/*Carousel CSS*/
+img.d-block, .img-fluid{
+	width:50%;
+	height:500px;
+	margin-left: 25%;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	background-color: black;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#carousel-next-arrow{
+	width:4%;
+}
+
+#carousel-prev-arrow{
+	width:4%;
+}
+#carousel-slide-buttons{
+	margin-left: 15%
+}
+#carouselExampleIndicators{
+	margin-top: 4%;
+}
+
+.carousel-bottom-buttons{
+	margin-top: 30px;
+	margin-left: 45.5%;
+}
+#btn-bottom{
+background-color: #191919;
+}
+
+.btn-primary:hover{
+	color: #ff9900;
+	background-color: #ff9900;
+}
+
+.btn-primary{
+	color: #ff9900;
+	border-color:#ff9900;
+	background-color: transparent;
+}
+
+.btn-secondary{
+	color: #ff9900;
+	border-color:#ff9900;
+	background-color: transparent;
+}
+
+.btn-secondary:hover{
+	color: #ff9900;
+	background-color: #ff9900;
+}
+
+/*FOOTER CSS*/
+
+.last{
+	background-color:#191919;
+	padding:40px;
+	margin-top: 10%;
+}
+
+.copyright{
+	color: #ff9900;
+}
+
+#fa-icons{
+	color: #ff9900;
+}
+
+.footer-socials, .mb-5, .flex-center{
+	margin-left: 38%;
+	margin-right: 30%;
+}
+
+.title, .mb-4 ,.font-bold{
+	color: #ff9900;
+}
+.footer-content{
+	color: #ff9900;
+}
+
+.col-md-3,.col-lg-3,.col-xl-3,.mx-auto,.mt-3{
+	color: #ff9900;
+}
+.footer-links{
+	color: #ff9900;
+}
+
+/*MISC CSS*/
+body{
+	background-image: url("http://www.biantable.com/upload/728x0-website-backgrounds-wood-table-274540.jpg");
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 991px){
+	#beer-logo{
+	height: 40px;
+	width:40px;
+	margin-top: 0px;
+}
+
+}
+
+/*Modals*/
+
+.info-text{
+	color: #ff9900;
+	font-size: 16px;
+}
+
+.sign-in-header{
+	color: #ff9900;
+}
+
+.modal-body, .modal-header, .modal-footer{
+background-color: #191919;
+}
+
+#exampleModalLabel{
+	color: #ff9900;
+	font-size: 24px;
+}
